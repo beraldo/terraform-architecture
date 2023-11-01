@@ -16,7 +16,6 @@ resource "aws_subnet" "sub-a-public" {
   tags = {
     Name = "Sub-A-Public"
     Role = "public"
-    # Subnet      = ""
   }
 }
 
@@ -29,7 +28,6 @@ resource "aws_subnet" "sub-b-public" {
   tags = {
     Name = "Sub-B-Public"
     Role = "public"
-    # Subnet      = ""
   }
 }
 
@@ -43,7 +41,6 @@ resource "aws_subnet" "sub-c-private" {
   tags = {
     Name = "Sub-C-Private"
     Role = "private"
-    # Subnet      = ""
   }
 }
 
@@ -56,7 +53,6 @@ resource "aws_subnet" "sub-d-private" {
   tags = {
     Name = "Sub-D-Private"
     Role = "private"
-    # Subnet      = ""
   }
 }
 
